@@ -36,13 +36,13 @@ body {
 .section-title {
   font-size: 40px;
   font-weight: 700;
-  line-height: 48px;
   margin-bottom: 24px;
 }
 .section-subtitle {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  margin-bottom: 32px;
 }
 
 section {
@@ -77,16 +77,23 @@ nav .btn-secondary {
   height: 560px;
   border-radius: 24px;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 64px;
 }
+.hero-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
 .hero-text .hero-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 67px;
+  margin-bottom: 24px;
 }
 /* main styles */
 main {
@@ -95,5 +102,96 @@ main {
 }
 
 /* vision section styles */
-.vision-section {
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.vision-card {
+  width: 410px;
+  height: auto;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.vision-card img {
+  margin-bottom: 24px;
+}
+.vision-card .card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.card-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+
+.vision-card a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border-radius: 8px;
+}
+.card-blue {
+  background-color: #5490f533;
+}
+.card-blue a {
+  background-color: #5490f5;
+}
+.card-blue a:hover {
+  background-color: #3a7ae9;
+}
+.card-green {
+  background-color: #c6e4d6;
+}
+.card-green a {
+  background-color: #09a15c;
+}
+.card-green a:hover {
+  background-color: #047c46;
+}
+.card-yellow {
+  background-color: #f7ebcf;
+}
+.card-yellow a {
+  background-color: #ffc239;
+}
+.card-yellow a:hover {
+  background-color: #ce9b23;
+}
+.vision-section .quote {
+  /* height: 256px; */
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 48px 24px;
+}
+.quote {
+    background: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 24px left 24px;
+    margin-top: 32px;
+}
+.quote .quote-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.quote h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.quote .quote-footer{
+    color: rgba(14, 14, 14, 0.6);
 }
