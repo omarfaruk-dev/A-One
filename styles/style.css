@@ -101,12 +101,45 @@ main {
   margin: 0 auto;
 }
 
+/* pillars of bd styles */
+
+.pillars-section .card-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.pillars-section .card-items .pillar-card {
+  width: 302px;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.pillar-card img {
+  margin-bottom: 24px;
+}
+.pillar-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+  
+}
+.pillar-card p{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+
+
 /* vision section styles */
 
 .card-container {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 24px;
 }
 .vision-card {
   width: 410px;
@@ -263,8 +296,9 @@ main {
 }
 .donate-btn:active {
   background-color: #006a50;
+  color: #ffffff;
 }
-.donate-footer input[type=number] {
+.donate-footer input[type="number"] {
   color: rgba(14, 14, 14, 0.3);
   font-size: 20px;
   width: 100%;
@@ -276,12 +310,12 @@ main {
   margin: 32px 0;
 }
 /* subscribe newsletter section */
-.subscribe-section{
+.subscribe-section {
   padding: 80px 100px;
   border-radius: 16px;
   text-align: center;
 }
-.subscribe-section form input[type=email]{
+.subscribe-section form input[type="email"] {
   color: rgba(14, 14, 14, 0.3);
   font-size: 16px;
   font-weight: 400;
@@ -292,31 +326,28 @@ main {
   background: #ffffff;
   padding: 0 40px;
 }
-.subscribe-section form input[type=button]{
+.subscribe-section form input[type="button"] {
   border-radius: 0 8px 8px 0;
 }
-.subscribe-section form{
+.subscribe-section form {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 25px;
-
 }
 /* footer section styles */
-.footer {
+footer {
   max-width: 1280px;
   margin: 50px auto;
   text-align: center;
 }
-.footer hr{
+.footer hr {
   width: 80%;
   margin: 30px auto;
-  border:1px solid rgba(14, 14, 14, 0.1);
+  border: 1px solid rgba(14, 14, 14, 0.1);
 }
 .footer .social-icon {
-display: flex;
-gap: 23px;
-justify-content: center;
-
+  display: flex;
+  gap: 23px;
+  justify-content: center;
 }
-
