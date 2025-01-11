@@ -37,12 +37,14 @@ body {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 24px;
+  color: #0e0e0e;
 }
 .section-subtitle {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 32px;
+  color: rgba(14, 14, 14, 0.7);
 }
 
 section {
@@ -123,16 +125,14 @@ main {
   font-weight: 700;
   color: rgba(14, 14, 14, 0.8);
   margin-bottom: 12px;
-  
 }
-.pillar-card p{
+.pillar-card p {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 30px;
   line-height: 24px;
 }
-
 
 /* vision section styles */
 
@@ -227,6 +227,44 @@ main {
 }
 .quote .quote-footer {
   color: rgba(14, 14, 14, 0.6);
+}
+
+/* your opinion matters styles */
+.opinion-section .opinion-items {
+  background-color: #ffffff;
+  border-radius: 16px;
+  height: 409px;
+  padding: 16px;
+}
+.opinion-section table {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-collapse: collapse;
+  width: 1216px;
+  height: 345px;
+  margin: 24px auto;
+}
+.opinion-section td,
+th {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.opinion-section table thead td {
+  background-color: rgb(198, 228, 214);
+  /* height: 72px; */
+  font-size: 20px;
+  font-weight: 600;
+}
+.opinion-section table tr td {
+  padding: 24px 0px 24px 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.opinion-section table select {
+  background-color: #c6e4d6;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  text-align: center;
 }
 
 /* recent news styles */
