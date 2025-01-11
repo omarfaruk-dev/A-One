@@ -285,12 +285,12 @@ main {
   color: rgba(14, 14, 14, 0.3);
   font-size: 16px;
   font-weight: 400;
-  text-align: center;
   height: 55px;
-  width: 600px;
+  width: 520px;
   border: none;
   border-radius: 8px 0 0 8px;
   background: #ffffff;
+  padding: 0 40px;
 }
 .subscribe-section form input[type=button]{
   border-radius: 0 8px 8px 0;
@@ -300,6 +300,23 @@ main {
   justify-content: center;
   align-items: center;
   margin-bottom: 25px;
+
+}
+/* footer section styles */
+.footer {
+  max-width: 1280px;
+  margin: 50px auto;
+  text-align: center;
+}
+.footer hr{
+  width: 80%;
+  margin: 30px auto;
+  border:1px solid rgba(14, 14, 14, 0.1);
+}
+.footer .social-icon {
+display: flex;
+gap: 23px;
+justify-content: center;
 
 }
 
