@@ -164,6 +164,9 @@ main {
   margin-bottom: 30px;
   line-height: 24px;
 }
+.vision-card .custom-padding {
+  margin-bottom: 55px;
+}
 
 .vision-card a {
   text-decoration: none;
@@ -279,6 +282,9 @@ th {
   gap: 32px;
   align-items: center;
   margin-bottom: 16px;
+}
+.news-card-2 {
+  flex-direction: row-reverse;
 }
 .news-card img {
   border-radius: 24px;
