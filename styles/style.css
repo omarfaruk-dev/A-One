@@ -272,6 +272,34 @@ main {
   height: 64px;
   border: none;
   border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-  background: rgb(255, 255, 255);
+  background: #ffffff;
   margin: 32px 0;
 }
+/* subscribe newsletter section */
+.subscribe-section{
+  padding: 80px 100px;
+  border-radius: 16px;
+  text-align: center;
+}
+.subscribe-section form input[type=email]{
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  height: 55px;
+  width: 600px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  background: #ffffff;
+}
+.subscribe-section form input[type=button]{
+  border-radius: 0 8px 8px 0;
+}
+.subscribe-section form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+
+}
+
