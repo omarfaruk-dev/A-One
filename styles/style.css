@@ -218,13 +218,13 @@ main {
   font-weight: 700;
   margin-bottom: 20px;
 }
-.card-content .card-logo{
+.card-content .card-logo {
   margin-bottom: 20px;
 }
-.card-content > .card-description{
+.card-content > .card-description {
   margin: 20px 0 32px;
 }
-.card-content a{
+.card-content a {
   text-decoration: none;
   color: #ffffff;
   background-color: #006a50;
@@ -233,7 +233,45 @@ main {
   padding: 11px 20px;
   border-radius: 8px;
 }
-.card-content a:hover{
+.card-content a:hover {
   background-color: #024727;
 }
 
+/* donate section styles */
+.donate-section {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto 80px;
+}
+.donate-body {
+  margin: 32px 0;
+}
+.donate-body .donate-items {
+  display: flex;
+  justify-content: space-between;
+}
+.donate-items .donate-btn {
+  padding: 40px;
+  background-color: #ffffff;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.donate-btn:hover {
+  background-color: #c6e4d6;
+}
+.donate-btn:active {
+  background-color: #006a50;
+}
+.donate-footer input[type=number] {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  height: 64px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  margin: 32px 0;
+}
