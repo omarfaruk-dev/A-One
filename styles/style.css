@@ -175,10 +175,10 @@ main {
   padding: 48px 24px;
 }
 .quote {
-    background: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
-    background-position: top 24px left 24px;
-    margin-top: 32px;
+  background: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top 24px left 24px;
+  margin-top: 32px;
 }
 .quote .quote-description {
   font-size: 16px;
@@ -192,6 +192,48 @@ main {
   font-weight: 600;
   margin-bottom: 10px;
 }
-.quote .quote-footer{
-    color: rgba(14, 14, 14, 0.6);
+.quote .quote-footer {
+  color: rgba(14, 14, 14, 0.6);
 }
+
+/* recent news styles */
+.latest-news .news-card {
+  background-color: #ffffff;
+  padding: 48px;
+  border-radius: 16px;
+}
+.news-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.news-card img {
+  border-radius: 24px;
+}
+.card-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.card-content .card-logo{
+  margin-bottom: 20px;
+}
+.card-content > .card-description{
+  margin: 20px 0 32px;
+}
+.card-content a{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #006a50;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border-radius: 8px;
+}
+.card-content a:hover{
+  background-color: #024727;
+}
+
